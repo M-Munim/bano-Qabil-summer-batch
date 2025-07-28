@@ -1,0 +1,83 @@
+h2 {
+    background-color: pink;
+    color: royalblue;
+}
+
+.box {
+    background-color: bisque;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.box2 {
+    background-color: #c4ffcbfd;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+.borderBox {
+    padding: 20px;
+    border: 2px solid red;
+    margin: 50px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    padding-top: 10px;
+}
+
+.btn {
+    background-color: red;
+
+}
+
+/* button{
+    background-color: greenyellow;
+     border: none;
+     padding: 10px 20px;
+     border-radius: 10px;
+     cursor: pointer;
+     margin: 10px 40px;
+} */
+
+
+button {
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    /* border: none; */
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 40px;
+}
+
+/* button:hover {
+
+
+    color: white;
+    transition: all 0.2s ease-in-out;
+    scale: 0.8;
+} */
+
+
+
+.circle {
+    background-image: url("data:image/jpeg;base64,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");
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.over {
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    overflow:;
+}
