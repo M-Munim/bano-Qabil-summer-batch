@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.fa-whatsapp {
+    background-color: green;
+    padding: 10px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+/* 
+.cards{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.card {
+    background-color: aqua;
+    border: 2px solid black;
+    width: 350px;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.card img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.card .content {
+    text-align: center;
+    margin-top: 10px    ;
+}
+
+.card .content h2{
+    font-size: 32px;
+} */
+
+
+section {
+    height: 100vh;
+}
+
+header {
+    background-color: aqua;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.secOne {
+    position: relative;
+}
+
+section .one {
+    background-color: burlywood;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+z-index: 10;
+}
+
+section .two {
+    background-color: rgb(158, 222, 135);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+}
