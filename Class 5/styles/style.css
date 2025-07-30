@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Playwrite AU QLD", cursive;
+}
+
+/* header styling */
+
+header {
+    background-color: antiquewhite;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0px 40px;
+}
+
+nav .logo h1 {
+    font-size: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3)
+}
+
+.navLinks {
+    display: flex;
+    gap: 10px;
+}
+
+.navLinks li a {
+    font-size: 20px;
+}
+
+footer {
+    padding: 10px 0px;
+
+}
+
+.footerMainDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+
+.sample::after {
+    content: "🔥 ";
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: red;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width:780px) {
+    nav .logo h1 {
+        font-size: 20px;
+        color: aqua;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    nav .logo h1 {
+        font-size: 20px;
+        color: red;
+    }
+}
